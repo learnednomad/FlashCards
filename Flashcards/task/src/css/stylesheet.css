@@ -1,0 +1,33 @@
+
+.header{
+    background-color: darkblue;
+    border-radius: 25px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 0 10em 0 ;
+}
+.container {
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    margin: 100px 50px 100px 100px;
+    padding: 1em 1em 1em 1em;
+}
+
+.flex-items {
+    background-color: white;
+    width: 32%;
+    padding-bottom: 18%; /* 32:18, i.e. 16:9 */
+    margin-top: 10%;
+    margin-bottom: 2%; /* (100-32*3)/2 *!*/
+    border-radius: inherit;
+}
+
+p{
+    text-align: center;
+}
+
+
